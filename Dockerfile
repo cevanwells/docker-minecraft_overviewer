@@ -3,6 +3,7 @@ LABEL maintainer "Chris Wells <iroh@cogito.io>"
 
 ENV LANG C.UTF-8
 ENV APP_DIR /app
+ENV MC_VERSION latest
 
 RUN set -eux; \
     apt-get update; \
